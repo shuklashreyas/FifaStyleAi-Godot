@@ -1,0 +1,15 @@
+# Godot-specific
+.import/
+.godot/
+.export/
+*.translation
+*.import
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup / temp
+*.tmp
+*.bak
+
