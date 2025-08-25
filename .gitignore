@@ -1,15 +1,17 @@
-# Godot-specific
-.import/
+kk# Godot-specific
 .godot/
-.export/
+.import/
+export.cfg
+export_presets.cfg
+
 *.translation
-*.import
 
-# OS files
+# Editor/project metadata
+.godot/
+
+# OS-specific
 .DS_Store
-Thumbs.db
 
-# Backup / temp
-*.tmp
-*.bak
+# IDE-specific (if using any)
+.idea/
 
