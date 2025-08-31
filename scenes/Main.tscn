@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://kgdq2fjgfjmx"]
+[gd_scene load_steps=3 format=3 uid="uid://kgdq2fjgfjmx"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://7ensjecebk8o" path="res://scenes/Pitch.tscn" id="1_rvslj"]
+[ext_resource type="PackedScene" uid="uid://bbmsbkkje8m4i" path="res://Player.tscn" id="2_0bbpv"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Pitch" parent="." instance=ExtResource("1_rvslj")]
+
+[node name="Player" parent="." instance=ExtResource("2_0bbpv")]
+position = Vector2(-300, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]

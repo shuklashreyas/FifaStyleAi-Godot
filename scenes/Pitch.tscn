@@ -12,7 +12,7 @@ size = Vector2(20, 880)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_61fyf"]
 size = Vector2(1580, 20)
 
-[node name="Node2D" type="Node2D"]
+[node name="Pitch" type="Node2D"]
 
 [node name="Grass" type="ColorRect" parent="."]
 custom_minimum_size = Vector2(1600, 900)
